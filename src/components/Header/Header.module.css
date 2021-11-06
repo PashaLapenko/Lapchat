@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Agency FB";
+  src: url("../../fonts/AgencyFB-Bold/AgencyFB-Bold.eot");
+  src: url("../../fonts/AgencyFB-Bold/AgencyFB-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../fonts/AgencyFB-Bold/AgencyFB-Bold.woff2") format("woff2"),
+    url("../../fonts/AgencyFB-Bold/AgencyFB-Bold.woff") format("woff"),
+    url("../../fonts/AgencyFB-Bold/AgencyFB-Bold.ttf") format("truetype"),
+    url("../../fonts/AgencyFB-Bold/AgencyFB-Bold.svg#AgencyFB-Bold")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.header {
+  grid-area: h;
+  background-color: #272727;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  height: 40px;
+}
+
+.header__name {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Agency FB", sans-serif;
+  font-size: 25px;
+  margin-left: 7px;
+}

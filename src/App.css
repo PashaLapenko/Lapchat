@@ -1,0 +1,19 @@
+body {
+  background-color: #d6d6d6;
+}
+
+a {
+  text-decoration: none;
+}
+.app-wrapper {
+  display: grid;
+  margin: 0 auto;
+  width: 1200px;
+
+  grid-template-areas:
+    "h h"
+    "n c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /* grid-gap: 10px; */
+}

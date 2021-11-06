@@ -1,0 +1,10 @@
+.content {
+  grid-area: c;
+  color: #ffffff;
+  background-color: #252540;
+  height: 2000px;
+}
+
+.profile__background {
+  height: 260px;
+}
