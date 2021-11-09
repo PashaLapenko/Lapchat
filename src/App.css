@@ -17,3 +17,10 @@ a {
   grid-template-columns: 2fr 10fr;
   /* grid-gap: 10px; */
 }
+
+.app-wrapper-content {
+  grid-area: c;
+  color: #ffffff;
+  background-color: #24292e;
+  height: 2000px;
+}

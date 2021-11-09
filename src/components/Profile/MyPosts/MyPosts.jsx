@@ -11,11 +11,10 @@ const MyPosts = () => {
             <button className={m.addpost}>Add post</button>
             <button>Remove post</button>
           </div>
-          <Posts/>
-          <Posts/>
-          <Posts/>
-          <Posts/>
-          <Posts/>
+          <div className={m.props}>
+            <Posts message="Hi, how are you?" likesCount="0" />
+            <Posts message="It's my first post" likesCount="23"/>
+          </div>
         </div>
     );
 }

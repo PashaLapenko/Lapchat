@@ -25,11 +25,15 @@
 }
 
 .item__button {
+  padding-top: 3px;
+  padding-left: 12px;
+  display: flex;
+  justify-content: flex-start;
   height: 35px;
   width: 160px;
   background-color: #242424;
-  border: 2px solid #000000;
-  border-radius: 4px;
+  border: 1px solid #0e1011;
+  border-radius: 5px;
   color: #ffffff;
   font-family: "Raavi", sans-serif;
   font-size: 17px;
@@ -38,7 +42,12 @@
 }
 
 .item__button:hover {
-  background-color: #303030;
+  border-color: #c9d1d9;
+}
+
+.item__button:active {
+  background-color: #1f6feb;
+  border-color: #1f6feb;
 }
 
 .item__button__setting {
